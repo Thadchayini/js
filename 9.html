@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+<script>
+var person = {
+  firstName :"John",
+  lastName  :"Doe",
+  age       :50,
+  eyeColor  :"blue"
+};
+document.getElementById("demo").innerHTML =
+person.firstName + "is" +person.age + "years old."+"<br>"+
+person.firstName + "'s eyecolor is " +person.eyeColor + "."+"<br>"+
+person["firstName"] + " " + person["lastName"];
+</script>
+
+<p id="demo1"></p>
+<script>
+document.getElementById("demo1").innerHTML =
+typeof 0 + "<br>" +
+typeof 314+ "<br>" +
+typeof 3.14 + "<br>" +
+typeof (3) + "<br>" +
+typeof (3+4) + "<br>" +
+</script>
+
+
+
+
+
+
+
+</body>
+</html>
